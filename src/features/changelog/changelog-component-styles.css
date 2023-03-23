@@ -1,0 +1,36 @@
+.rl_changelog_content {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.rl_changelog_container {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.rl_changelog_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 0 1rem;
+  height: calc(100vh - 125px);
+  overflow-y: scroll;
+}
+
+.rl_changelog_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.rl_changelog_bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

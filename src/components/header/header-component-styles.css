@@ -1,0 +1,36 @@
+.rl_header_title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.rl_header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171499;
+  color: #fff;
+  height: auto;
+  padding: 0.2rem 1rem;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.rl_header_icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  outline: 0;
+  border-width: 0;
+  text-decoration: none;
+}
+
+.rl_header_icon_container:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

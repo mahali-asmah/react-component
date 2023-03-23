@@ -1,0 +1,26 @@
+.rl_footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 16px;
+  background: #f3f4f6;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+}
+
+.rl_footer_container > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1f2937;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rl_footer_container > p > a {
+  color: #171499;
+}
